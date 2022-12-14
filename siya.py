@@ -1,0 +1,5 @@
+a=open("prati.txt","w")
+a.write("hello,dear!/n")
+a.close()
+file=open("prati.txt","r")
+print(file.read())

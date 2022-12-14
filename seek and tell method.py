@@ -1,0 +1,8 @@
+a=open("mom.txt","w+")
+print(a.tell())
+b=a.write("hello")
+print(a.tell())
+a.seek(0)
+b=a.read()
+print(b)
+a.close()
